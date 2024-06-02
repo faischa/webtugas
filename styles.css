@@ -1,0 +1,144 @@
+body{
+     max-width: 1920px;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2% 5% 2% 5%;
+}
+
+body h1{font-size: 3em;}
+    
+p{
+    font-size: 23px;
+}
+
+
+.container{
+    display: flex;
+    height: fit-content;
+    background-image: url("images/Untitled-1.png");
+    background-size:contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 2% 5% 2% 5%;
+    margin-right: 3%;
+}
+
+.nama{
+    padding-right: 21%;
+    padding-bottom: 10%;
+}
+
+.nama h1{font-size : 7em;}
+
+.image {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    display: inline-block;
+}
+
+.image img {
+    max-width: 50%;
+    height: auto;
+}
+
+.img-software{
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    display:contents;
+}
+
+.img-software img {
+    max-width: 19%;
+    height: auto;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 5% 2% 5%;
+}
+
+.block {
+    flex: 1;
+    height: 0;
+    padding-bottom: 25%;
+    background-color: #ecedee;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10%;
+}
+
+.block:hover {
+    background-color: #4fc697;
+}
+
+
+@media (max-width: 1440px) {
+    body{
+        padding: 2% 5% 2% 5%;
+    }
+    .nama h1{font-size: 5em;}
+    p {
+        font-size: 20px;
+    }
+ 
+}
+@media (max-width: 1024px) {
+    body{
+        padding: 2% 5% 2% 5%;
+    }
+    .nama h1{font-size: 4em;}
+    p {
+        font-size: 14px;
+    }
+ 
+}
+@media (max-width: 854px) {
+    
+    .nama{
+        padding-right: 25%;
+        padding-bottom: 3%;
+    }
+    .nama h1{font-size: 3em;}
+    p {font-size: 12px;}
+}
+
+@media (max-width: 647px) {
+    .container {
+        padding: 2% 0% 2% 5%;
+        background-image: none;
+    }
+    .nama {padding: 0 0 0 0;}
+    .nama h1{font-size: 2em;}
+    
+    .container2{
+        padding: 2% 0% 2% 5%;
+    }
+    body h1{font-size: 2em;}
+}
+
+table {
+    padding: 0% 5% 0% 5%;
+    width: 100%;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.kiri{
+    background-color: #f2f2f2;
+    padding: 0 0 0 4%;
+
+}
+
+.kanan {
+    background-color: #e0e0e0;
+    padding: 0 0 0 4%;
+
+}
+
